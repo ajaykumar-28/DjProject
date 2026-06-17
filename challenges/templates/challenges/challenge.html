@@ -5,6 +5,7 @@
 {% endblock %} 
 
 {% block content %}
+  {% include "challenges/includes/header.html" %}
   <h1>{{ month|title }}'s challenge</h1>
   {% if challenge %}
     <h2>{{ challenge }}</h2>
